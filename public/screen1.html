@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>React App</title>
+    <link href="/public/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div class="App">
+        <div id="text-container">
+            <div class="heading-container">
+                <h1 class="pink difference">Intimacy Chat</h1>
+            </div>
+            <div class="link-container">
+                <div class="light difference">invite someone to join you here with this link:</div>
+                <div id="share-link" class="light difference"></div>
+            </div>
+            <div class="button-container"><button class="difference" onclick="elementHide()">let's begin</button></div>
+        </div>
+        <div class="prompt-container">
+            <div class="prompt subtitle">
+            </div>
+            <div class="next" onclick="promptNext()">
+                <div class="light difference next-button">next ></div>
+            </div>
+        </div>
+        <div class="vid-container">
+            <div class="vid1"><img src="images/img1.png"></div>
+            <div class="vid2"><img src="images/img2.png"></div>
+        </div>
+    </div>
+
+    <script src="javascripts/script.js"></script>
+
+</body>
+
+</html>
